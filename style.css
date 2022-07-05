@@ -39,7 +39,7 @@ section {
 }
 
 .header-content {
-    width: 50%;
+    width: 70%;
     margin: auto;
     text-align: center;
     padding-top: 12rem;
@@ -47,13 +47,15 @@ section {
 
 .header-content h1 {
     font-size: 3rem;
+    text-transform: capitalize;
 }
 
 .header-content p {
     font-size: .9rem;
     line-height: 2;
-    margin: 1rem 0;
     color: #c7c7c7;
+    width: 75%;
+    margin: 1rem auto 1rem auto;
 }
 
 .btn {
