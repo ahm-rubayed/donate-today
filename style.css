@@ -147,6 +147,7 @@ section {
     align-items: unset;
     justify-content: unset;
 }
+
 .donate-plan .col {
     padding: 2rem 1rem;
     margin: 2.5rem 1rem 1rem 1rem;
@@ -157,9 +158,11 @@ section {
 .donate-plan .col:nth-child(1) {
     background-color: #4f9da644;
 }
+
 .donate-plan .col:nth-child(2) {
     background-color: #ff59593a;
 }
+
 .donate-plan .col:nth-child(3) {
     background-color: #ffeaa775;
 }
@@ -172,6 +175,49 @@ section {
 
 .donate-plan .col img {
     margin-top: 2rem;
+}
+
+/* Slider */
+.slider {
+    background-color: #FF5959;
+    color: #fff;
+    padding: 4rem 5rem;
+}
+
+.slider-content {
+    margin: 0 1.5rem;
+}
+
+.slider-content h3 {
+    margin: .2rem 0;
+    font-size: 1.9rem;
+}
+
+/* Upcoming program */
+.upcoming-program .col img {
+    width: 100%;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.upcoming-program .col:nth-child(2) {
+    margin-left: 2rem;
+}
+
+.upcoming-program .col small {
+    color: #6c6464;
+}
+
+.upcoming-program .col h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.upcoming-program .col p {
+    font-size: .9rem;
+    margin: 1rem 0;
+    line-height: 1.8rem;
+    color: #6c6464;
 }
 
 /* Get updates */
@@ -207,7 +253,7 @@ footer {
     text-align: center;
 }
 
-footer h3{
+footer h3 {
     font-size: 2rem;
     text-transform: capitalize;
 }
